@@ -1,0 +1,162 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.banner::before {
+  content: " ";
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgba(10, 42, 67, 0), rgba(10, 42, 67, 1));
+  display: block;
+  z-index: 9999;
+}
+.banner::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:  #0A2A43;
+  mix-blend-mode: color;
+  z-index: 9999;
+}
+.banner img {
+  position: absolute;
+  object-fit: cover;
+}
+.sky {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.road {
+  height: 60vh;
+  width: 100%;
+  bottom: 0em;
+  z-index: 2;
+}
+.mountain {
+  width: 100%;
+  bottom: -1em;
+}
+.moon {
+  width: 13em;
+  right: 1em;
+  top: 5em;
+}
+.banner h1 {
+  position: absolute;
+  font-size: 10rem;
+  color: #fff;
+  z-index: 1;
+}
+
+/* -/-/-/-/-/   CONTENT   /-/-/-/--/-/*/
+.content {
+  width: 100%;
+  height:auto;
+  background: #0A2A43;
+  z-index: 4;
+  position: absolute;
+  overflow: hidden;
+}
+.content__container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0em;
+}
+.content__text {
+  width: 30%;
+}
+.content__text h1 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2em;
+  letter-spacing: 5px;
+}
+.content__text p {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* --/-/ content cards --/-/-/-/-/  */
+.card {
+  position: relative;
+  width: 600px;
+  height: 550px;
+}
+.card img {
+  width: 20em;
+  position: absolute;
+  right: 0em;
+}
+.card-1,
+.card-2,
+.card-3 {
+  width: 35%;
+}
+.card-1 h1,
+.card-2 h1,
+.card-3 h1 {
+  position: absolute;
+  top: 52%;
+  left: 0%;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.card-1 p,
+.card-2 p,
+.card-3 p {
+  position: absolute;
+  bottom: 5%;
+  text-align: justify;
+  color: #fff;
+  font-weight: 200;
+}
+/*CARD2*/
+.card-2 {
+  position: absolute;
+  z-index: 999;
+  top: 20%;
+  right: 5%;
+}
+.card-2 img {
+  width: 23em;
+}
+.card-2 p {
+  bottom: 1%;
+}
+.card-2 h1 {
+  top: 60%;
+}
+.card-3 {
+  margin-top: 10em;
+}
+.card-3 img {
+  width: 21em;
+}
+.card-3 h1 {
+  position: absolute;
+  top: 43%;
+  left: 0%;
+}
+.card-3 p {
+  bottom: 4%;
+}

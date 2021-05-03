@@ -1,0 +1,143 @@
+@media (min-width: 360px) and (max-width: 640px) {
+    .road {
+        height: 60vh;
+    }
+    .mountain {
+        height: 70vh;
+        margin-top: 2em;
+    }
+    .moon {
+        width: 10em;
+    }
+    .banner h1 {
+        font-size: 3rem;
+    }
+    .content__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card {
+        width: 100%;
+        position: unset;
+        margin: 0em;
+        margin: 1em 0em;
+    } 
+    .card p {
+        top: 50%;
+    }
+    .card img {
+        width: 70%;
+    }
+    .card-1 h1,
+    .card-2 h1 {
+        top: 35%;
+    }
+    .card-1 p {
+        bottom: 12%;
+    }
+    .card-3 h1 {
+        top: 27%;
+        font-size: 1.9rem;
+    }
+    .card-3 p{
+        top: 40%;
+    }
+}
+/*640px — 768px: iPads, Tablets.*/
+@media (min-width: 640px) and (max-width: 768px) {
+    .road {
+        height: 60vh;
+    }
+    .mountain {
+        height: 70vh;
+        margin-top: 2em;
+    }
+    .moon {
+        width: 10em;
+    }
+    .banner h1 {
+        font-size: 6rem;
+    }
+    
+    .content__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card {
+        width: 100%;
+        position: relative;
+        margin: 0em;
+        margin: 2em 0em;
+    }
+    .card img {
+        width: 70%;
+    }
+    .card-1 h1,
+    .card-2 h1 {
+        position: absolute;
+       bottom: 0%;
+    }
+    .card-1 p {
+        bottom: 5%;
+    }
+    .card-3 p{
+        bottom: 15%;
+    }
+}
+
+/* 769px — 1024px: Small screens, laptops */
+@media (min-width: 769px) and (max-width:1024px) {
+    .road {
+        height: 60vh;
+    }
+    .mountain {
+        height: 70vh;
+        margin-top: 2em;
+    }
+    .moon {
+        width: 10em;
+    }
+    .banner h1 {
+        font-size: 7rem;
+    }
+    
+    .content__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card {
+        width: 100%;
+        position: relative;
+        margin: 0em;
+        margin: 4em 0em;
+    }
+    .card img {
+        width: 70%;
+    }
+    .card p {
+        top: 99% ;
+    }
+    .card-1 h1,
+    .card-2 h1 {
+        position: absolute;
+       bottom: 0%;
+       top: 89%;
+       left: 15%;
+    }
+    .card-1 p {
+        bottom: 5%;
+    }
+    .card-3 {
+        position: relative;
+    }
+    .card-3 p {
+        top: 85%;
+    }
+    .card-3 h1 {
+        top: 71%;
+        left: 10%;
+    }
+}
